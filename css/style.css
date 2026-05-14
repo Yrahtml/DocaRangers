@@ -64,8 +64,9 @@ a:hover{
 }
 .players {
     display: grid;
+    animation: anim 1.5s ease;
     padding-bottom: 40px;
-    width:200vh;
+    width:130vh;
     height:130vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(7, 1fr);
@@ -84,13 +85,15 @@ a:hover{
 .descrip{
     margin: 30px;
 }
+.player1:hover,.player2:hover,.player3:hover,.player4:hover,.player5:hover,.player6:hover{
+    animation: grow 1.5s forwards;
+}
 .player1 {
-    animation: anim 1.5s ease;
     text-align: end;
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background-color: rgba(255, 209, 216, 0.7);
     box-shadow:0px 0px 20px rgb(252, 193, 202,0.7),inset 0 0 15px rgba(255, 255, 255, 0.3);;
     height: 489px;
@@ -100,11 +103,11 @@ a:hover{
 }
 
 .player2 {
-    animation: anim 1.5s ease;
+
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background-color: rgba(255, 243, 77, 0.7);
     box-shadow:0px 0px 20px rgba(255, 243, 77, 0.7),inset 0 0 15px rgba(255, 255, 255, 0.3);;
     height: 489px;
@@ -114,11 +117,11 @@ a:hover{
 }
 
 .player3 {
-    animation: anim 1.5s ease;
+
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background-color: rgba(252, 79, 79, 0.7);
     box-shadow:0px 0px 20px rgba(255, 74, 74, 0.7),inset 0 0 15px rgba(255, 255, 255, 0.1);;
     height: 489px;
@@ -128,11 +131,11 @@ a:hover{
 }
 
 .player4 {
-    animation: anim 1.5s ease;
+
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background: linear-gradient(90deg, red, orange, green,yellow, blue, indigo, violet);
     box-shadow:0px 0px 20px rgb(199, 79, 255),inset 0 0 15px rgba(255, 255, 255, 0.3);
     height: 529px;;
@@ -148,11 +151,11 @@ a:hover{
     color: white;
 }
 .player5 {
-    animation: anim 1.5s ease;
+
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background-color: rgb(3, 42, 107,0.7);
     box-shadow:0px 0px 20px rgb(3, 42, 107,0.7),inset 0 0 15px rgba(255, 255, 255, 0.3);;
     height: 529px;
@@ -163,14 +166,14 @@ a:hover{
 }
 
 .player6 {
-    animation: anim 1.5s ease;
+
     align-items: center;
     text-align: center;
     justify-items: center;
-    width: 362px;
+    width: 262px;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow:0px 0px 20px rgba(255, 255, 255, 0.7),inset 0 0 15px rgba(255, 255, 255, 0.4);;
-    height: 529px;
+    height: 540px;
     border-radius: 44px; 
     grid-row: span 3 / span 3;
     grid-row-start: 5;
@@ -202,8 +205,8 @@ a:hover{
 
 
 .bg{
-    width:200vh;
-    height:110vh;
+    width:150vh;
+    height:100vh;
     padding:15px;
     justify-self: center;
     border-radius:100px;
@@ -222,7 +225,7 @@ a:hover{
     text-align: left; 
     align-items: center;
     padding: 20px 40px;
-    width: 748px;
+    width: 548px;
     height: 302px;
     background: rgba(119, 182, 148, 0.5); 
     backdrop-filter: blur(75px) saturate(300%); 
@@ -235,7 +238,7 @@ a:hover{
         0 8px 32px 0 rgba(50, 104, 67, 0.9), 
         inset 0 0 15px rgba(255, 255, 255, 0.2); 
     
-    overflow: hidden;
+
 }
 .card-img {
     height: 90%; 
@@ -249,14 +252,14 @@ a:hover{
     animation: grow 1s  forwards;
 }
 .jager{
-    width: 528px;
+    width: 828px;
 }
 .cards{
     animation: anim 2s;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 100px;
+    gap: 40px;
     justify-self: center;
 }
 .card2{
@@ -264,7 +267,7 @@ a:hover{
     text-align: center;
     align-items: center;
     padding: 20px 40px;
-    width: 748px;
+    width: 548px;
     height: 302px;
     border: 1px solid rgba(255, 255, 255, 0.7);
     background-color: rgba(250, 250, 250, 0.4);
@@ -281,7 +284,7 @@ a:hover{
     text-align: center;
     align-items: center;
     padding: 20px 40px;
-    width: 748px;
+    width: 548px;
     height: 302px;
     border: 1px solid rgba(255, 255, 255, 0.7);
     box-shadow: 1px 1px 35px  #5B5A5A,inset 0 0 15px rgba(255, 255, 255, 0.2);
@@ -296,7 +299,7 @@ a:hover{
     text-align: center;
     align-items: center;
     padding: 20px 40px;
-    width: 748px;
+    width: 548px;
     height: 302px;
     box-shadow: 1px 1px 25px  #FF151F,inset 0 0 15px rgba(255, 255, 255, 0.2);
     background-color: rgba(179, 47, 47, 5);
